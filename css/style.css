@@ -508,3 +508,11 @@ body {
         padding: 25px;
     }
 }
+.gallery-content img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-content img:hover {
+    transform: scale(1.05);
+}
